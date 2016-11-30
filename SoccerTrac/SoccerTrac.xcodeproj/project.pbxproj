@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891CE01F3D97046A6DDAE393 /* Pods_SoccerTrac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB39CA990A47ED8ECAD36880 /* Pods_SoccerTrac.framework */; };
+		CC55B89D1DEF158200D5641A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC55B89C1DEF158200D5641A /* Default-568h@2x.png */; };
 		CC9EB32D1DEDA51700053755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9EB32C1DEDA51700053755 /* AppDelegate.swift */; };
 		CC9EB32F1DEDA51700053755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9EB32E1DEDA51700053755 /* ViewController.swift */; };
 		CC9EB3321DEDA51700053755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9EB3301DEDA51700053755 /* Main.storyboard */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04744F7E3ED94D4C5683FBCA /* Pods_SoccerTracTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerTracTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721CC245E562D48CB7A6D31C /* Pods_SoccerTracUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerTracUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C1DD59597B3086DF0B859C /* Pods-SoccerTrac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerTrac.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerTrac/Pods-SoccerTrac.release.xcconfig"; sourceTree = "<group>"; };
+		CC55B89B1DEEAF5E00D5641A /* SoccerTrac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoccerTrac.entitlements; sourceTree = "<group>"; };
+		CC55B89C1DEF158200D5641A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC9EB3291DEDA51700053755 /* SoccerTrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerTrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9EB32C1DEDA51700053755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9EB32E1DEDA51700053755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		CC9EB3481DEDA51700053755 /* SoccerTracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9EB34C1DEDA51700053755 /* SoccerTracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTracUITests.swift; sourceTree = "<group>"; };
 		CC9EB34E1DEDA51700053755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB39CA990A47ED8ECAD36880 /* Pods_SoccerTrac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerTrac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E300F689F5CD3C559FC0F177 /* Pods-SoccerTrac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerTrac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerTrac/Pods-SoccerTrac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891CE01F3D97046A6DDAE393 /* Pods_SoccerTrac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94B3F4DCCE036E684C5B5FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E300F689F5CD3C559FC0F177 /* Pods-SoccerTrac.debug.xcconfig */,
+				C5C1DD59597B3086DF0B859C /* Pods-SoccerTrac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC9EB3201DEDA51700053755 = {
 			isa = PBXGroup;
 			children = (
+				CC55B89C1DEF158200D5641A /* Default-568h@2x.png */,
 				CC9EB32B1DEDA51700053755 /* SoccerTrac */,
 				CC9EB3401DEDA51700053755 /* SoccerTracTests */,
 				CC9EB34B1DEDA51700053755 /* SoccerTracUITests */,
 				CC9EB32A1DEDA51700053755 /* Products */,
+				A94B3F4DCCE036E684C5B5FB /* Pods */,
+				FFB87C6F5102532E00FE2188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +119,7 @@
 		CC9EB32B1DEDA51700053755 /* SoccerTrac */ = {
 			isa = PBXGroup;
 			children = (
+				CC55B89B1DEEAF5E00D5641A /* SoccerTrac.entitlements */,
 				CC9EB32C1DEDA51700053755 /* AppDelegate.swift */,
 				CC9EB32E1DEDA51700053755 /* ViewController.swift */,
 				CC9EB3301DEDA51700053755 /* Main.storyboard */,
@@ -125,6 +148,16 @@
 			path = SoccerTracUITests;
 			sourceTree = "<group>";
 		};
+		FFB87C6F5102532E00FE2188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB39CA990A47ED8ECAD36880 /* Pods_SoccerTrac.framework */,
+				04744F7E3ED94D4C5683FBCA /* Pods_SoccerTracTests.framework */,
+				721CC245E562D48CB7A6D31C /* Pods_SoccerTracUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9EB3511DEDA51700053755 /* Build configuration list for PBXNativeTarget "SoccerTrac" */;
 			buildPhases = (
+				069F6062FBF938BA2CEFB58A /* [CP] Check Pods Manifest.lock */,
 				CC9EB3251DEDA51700053755 /* Sources */,
 				CC9EB3261DEDA51700053755 /* Frameworks */,
 				CC9EB3271DEDA51700053755 /* Resources */,
+				670AB04A40DF045B9EA0D003 /* [CP] Embed Pods Frameworks */,
+				4830F712CC6D95883AA45801 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +229,13 @@
 				TargetAttributes = {
 					CC9EB3281DEDA51700053755 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2AQ52MKLPN;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					CC9EB33C1DEDA51700053755 = {
 						CreatedOnToolsVersion = 8.1;
@@ -233,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9EB3371DEDA51700053755 /* LaunchScreen.storyboard in Resources */,
+				CC55B89D1DEF158200D5641A /* Default-568h@2x.png in Resources */,
 				CC9EB3341DEDA51700053755 /* Assets.xcassets in Resources */,
 				CC9EB3321DEDA51700053755 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +296,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069F6062FBF938BA2CEFB58A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4830F712CC6D95883AA45801 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoccerTrac/Pods-SoccerTrac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670AB04A40DF045B9EA0D003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoccerTrac/Pods-SoccerTrac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC9EB3251DEDA51700053755 /* Sources */ = {
@@ -333,6 +424,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +475,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,9 +503,14 @@
 		};
 		CC9EB3521DEDA51700053755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E300F689F5CD3C559FC0F177 /* Pods-SoccerTrac.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoccerTrac/SoccerTrac.entitlements;
+				DEVELOPMENT_TEAM = 2AQ52MKLPN;
 				INFOPLIST_FILE = SoccerTrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.SoccerTrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +520,14 @@
 		};
 		CC9EB3531DEDA51700053755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C1DD59597B3086DF0B859C /* Pods-SoccerTrac.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoccerTrac/SoccerTrac.entitlements;
+				DEVELOPMENT_TEAM = 2AQ52MKLPN;
 				INFOPLIST_FILE = SoccerTrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.SoccerTrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +608,7 @@
 				CC9EB3531DEDA51700053755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9EB3541DEDA51700053755 /* Build configuration list for PBXNativeTarget "SoccerTracTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +617,7 @@
 				CC9EB3561DEDA51700053755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9EB3571DEDA51700053755 /* Build configuration list for PBXNativeTarget "SoccerTracUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +626,7 @@
 				CC9EB3591DEDA51700053755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

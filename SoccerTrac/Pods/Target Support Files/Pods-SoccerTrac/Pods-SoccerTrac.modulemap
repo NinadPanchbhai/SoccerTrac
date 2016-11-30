@@ -1,0 +1,6 @@
+framework module Pods_SoccerTrac {
+  umbrella header "Pods-SoccerTrac-umbrella.h"
+
+  export *
+  module * { export * }
+}
